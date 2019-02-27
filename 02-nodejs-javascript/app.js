@@ -1,5 +1,5 @@
 // Basic fundamental modul
-// http module adalah core dari node.js
+// http adalah modul core dari node.js
 const http = require("http");
 const port = 3000;
 
