@@ -7,7 +7,7 @@ const modul1 = require("./modul1");
 const modul2 = require("./modul2");
 
 function panggilModule(req, res) {
-    res.writeHead(200, { "Content-Type": "plain/text" });
+    res.writeHead(200, { "Content-Type": "text/html" });
     res.write(modul2.myVariable);
     modul2.myFungsi();
     res.end();
