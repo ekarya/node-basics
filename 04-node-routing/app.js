@@ -15,7 +15,7 @@ function panggilHTML(path, res) {
 
 module.exports = {
     handleRequest: function(req, res) {
-        res.writeHead(200, { 'Content-Type': 'plain/html' });
+        res.writeHead(200, { 'Content-Type': 'text/html' });
 
         const path = url.parse(req.url).pathname;
         switch (path) {
