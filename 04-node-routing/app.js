@@ -1,3 +1,4 @@
+// Panggil filesystem dan url
 const fs = require("fs");
 const url = require("url");
 
